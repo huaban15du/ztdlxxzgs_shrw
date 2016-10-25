@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64386A9D1DBF2570005E74FC /* shrwAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64386A9C1DBF2570005E74FC /* shrwAppTests.swift */; };
+		64386AB11DBF2654005E74FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64386AA81DBF2654005E74FC /* AppDelegate.swift */; };
+		64386AB21DBF2654005E74FC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64386AA91DBF2654005E74FC /* LaunchScreen.xib */; };
+		64386AB31DBF2654005E74FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64386AAB1DBF2654005E74FC /* Main.storyboard */; };
+		64386AB41DBF2654005E74FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64386AAD1DBF2654005E74FC /* Images.xcassets */; };
+		64386AB51DBF2654005E74FC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64386AAE1DBF2654005E74FC /* Info.plist */; };
+		64386AB61DBF2654005E74FC /* shrwApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64386AAF1DBF2654005E74FC /* shrwApp.xcdatamodeld */; };
+		64386AC61DBF29EA005E74FC /* shanghaiMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64386AC51DBF29EA005E74FC /* shanghaiMapViewController.swift */; };
+		64386AC81DBF2CDF005E74FC /* secondViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64386AC71DBF2CDF005E74FC /* secondViewConroller.swift */; };
+		64386ACA1DBF2D34005E74FC /* thematicMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64386AC91DBF2D34005E74FC /* thematicMapViewController.swift */; };
+		64386ACC1DBF2D68005E74FC /* poiPushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64386ACB1DBF2D68005E74FC /* poiPushViewController.swift */; };
+		64386ACE1DBF2D8F005E74FC /* fourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64386ACD1DBF2D8F005E74FC /* fourViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64386A971DBF2570005E74FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64386A761DBF2570005E74FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64386A7D1DBF2570005E74FC;
+			remoteInfo = shrwApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64386A7E1DBF2570005E74FC /* shrwApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shrwApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64386A961DBF2570005E74FC /* shrwAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shrwAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64386A9B1DBF2570005E74FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64386A9C1DBF2570005E74FC /* shrwAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shrwAppTests.swift; sourceTree = "<group>"; };
+		64386AA81DBF2654005E74FC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64386AAA1DBF2654005E74FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		64386AAC1DBF2654005E74FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64386AAD1DBF2654005E74FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		64386AAE1DBF2654005E74FC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64386AB01DBF2654005E74FC /* shrwApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = shrwApp.xcdatamodel; sourceTree = "<group>"; };
+		64386AC51DBF29EA005E74FC /* shanghaiMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shanghaiMapViewController.swift; sourceTree = "<group>"; };
+		64386AC71DBF2CDF005E74FC /* secondViewConroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewConroller.swift; sourceTree = "<group>"; };
+		64386AC91DBF2D34005E74FC /* thematicMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thematicMapViewController.swift; sourceTree = "<group>"; };
+		64386ACB1DBF2D68005E74FC /* poiPushViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = poiPushViewController.swift; sourceTree = "<group>"; };
+		64386ACD1DBF2D8F005E74FC /* fourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fourViewController.swift; sourceTree = "<group>"; };
+		64386ACF1DBF2DC6005E74FC /* commonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commonDefine.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64386A7B1DBF2570005E74FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64386A931DBF2570005E74FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64386A751DBF2570005E74FC = {
+			isa = PBXGroup;
+			children = (
+				64386AB71DBF2951005E74FC /* myFavorite */,
+				64386AB81DBF2951005E74FC /* ohter */,
+				64386AB91DBF2951005E74FC /* poi */,
+				64386ABA1DBF2951005E74FC /* poiDetail */,
+				64386ABB1DBF2951005E74FC /* poiPush */,
+				64386ABC1DBF2951005E74FC /* poiSearch */,
+				64386ABD1DBF2951005E74FC /* shanghaiMap */,
+				64386ABE1DBF2951005E74FC /* thematicMap */,
+				64386ABF1DBF2951005E74FC /* tiandituMap */,
+				64386AC01DBF2951005E74FC /* usermanage */,
+				64386AA71DBF2654005E74FC /* shrwApp */,
+				64386A991DBF2570005E74FC /* shrwAppTests */,
+				64386A7F1DBF2570005E74FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64386A7F1DBF2570005E74FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64386A7E1DBF2570005E74FC /* shrwApp.app */,
+				64386A961DBF2570005E74FC /* shrwAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64386A991DBF2570005E74FC /* shrwAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				64386A9C1DBF2570005E74FC /* shrwAppTests.swift */,
+				64386A9A1DBF2570005E74FC /* Supporting Files */,
+			);
+			path = shrwAppTests;
+			sourceTree = "<group>";
+		};
+		64386A9A1DBF2570005E74FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64386A9B1DBF2570005E74FC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64386AA71DBF2654005E74FC /* shrwApp */ = {
+			isa = PBXGroup;
+			children = (
+				64386ACF1DBF2DC6005E74FC /* commonDefine.h */,
+				64386AA81DBF2654005E74FC /* AppDelegate.swift */,
+				64386AA91DBF2654005E74FC /* LaunchScreen.xib */,
+				64386AAB1DBF2654005E74FC /* Main.storyboard */,
+				64386AAD1DBF2654005E74FC /* Images.xcassets */,
+				64386AAE1DBF2654005E74FC /* Info.plist */,
+				64386AAF1DBF2654005E74FC /* shrwApp.xcdatamodeld */,
+			);
+			path = shrwApp;
+			sourceTree = "<group>";
+		};
+		64386AB71DBF2951005E74FC /* myFavorite */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = myFavorite;
+			path = shrwApp/myFavorite;
+			sourceTree = "<group>";
+		};
+		64386AB81DBF2951005E74FC /* ohter */ = {
+			isa = PBXGroup;
+			children = (
+				64386ACD1DBF2D8F005E74FC /* fourViewController.swift */,
+			);
+			name = ohter;
+			path = shrwApp/ohter;
+			sourceTree = "<group>";
+		};
+		64386AB91DBF2951005E74FC /* poi */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = poi;
+			path = shrwApp/poi;
+			sourceTree = "<group>";
+		};
+		64386ABA1DBF2951005E74FC /* poiDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = poiDetail;
+			path = shrwApp/poiDetail;
+			sourceTree = "<group>";
+		};
+		64386ABB1DBF2951005E74FC /* poiPush */ = {
+			isa = PBXGroup;
+			children = (
+				64386ACB1DBF2D68005E74FC /* poiPushViewController.swift */,
+			);
+			name = poiPush;
+			path = shrwApp/poiPush;
+			sourceTree = "<group>";
+		};
+		64386ABC1DBF2951005E74FC /* poiSearch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = poiSearch;
+			path = shrwApp/poiSearch;
+			sourceTree = "<group>";
+		};
+		64386ABD1DBF2951005E74FC /* shanghaiMap */ = {
+			isa = PBXGroup;
+			children = (
+				64386AC51DBF29EA005E74FC /* shanghaiMapViewController.swift */,
+				64386AC71DBF2CDF005E74FC /* secondViewConroller.swift */,
+			);
+			name = shanghaiMap;
+			path = shrwApp/shanghaiMap;
+			sourceTree = "<group>";
+		};
+		64386ABE1DBF2951005E74FC /* thematicMap */ = {
+			isa = PBXGroup;
+			children = (
+				64386AC91DBF2D34005E74FC /* thematicMapViewController.swift */,
+			);
+			name = thematicMap;
+			path = shrwApp/thematicMap;
+			sourceTree = "<group>";
+		};
+		64386ABF1DBF2951005E74FC /* tiandituMap */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = tiandituMap;
+			path = shrwApp/tiandituMap;
+			sourceTree = "<group>";
+		};
+		64386AC01DBF2951005E74FC /* usermanage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = usermanage;
+			path = shrwApp/usermanage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64386A7D1DBF2570005E74FC /* shrwApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64386AA01DBF2570005E74FC /* Build configuration list for PBXNativeTarget "shrwApp" */;
+			buildPhases = (
+				64386A7A1DBF2570005E74FC /* Sources */,
+				64386A7B1DBF2570005E74FC /* Frameworks */,
+				64386A7C1DBF2570005E74FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shrwApp;
+			productName = shrwApp;
+			productReference = 64386A7E1DBF2570005E74FC /* shrwApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64386A951DBF2570005E74FC /* shrwAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64386AA31DBF2570005E74FC /* Build configuration list for PBXNativeTarget "shrwAppTests" */;
+			buildPhases = (
+				64386A921DBF2570005E74FC /* Sources */,
+				64386A931DBF2570005E74FC /* Frameworks */,
+				64386A941DBF2570005E74FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64386A981DBF2570005E74FC /* PBXTargetDependency */,
+			);
+			name = shrwAppTests;
+			productName = shrwAppTests;
+			productReference = 64386A961DBF2570005E74FC /* shrwAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64386A761DBF2570005E74FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = com.map1000;
+				TargetAttributes = {
+					64386A7D1DBF2570005E74FC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					64386A951DBF2570005E74FC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 64386A7D1DBF2570005E74FC;
+					};
+				};
+			};
+			buildConfigurationList = 64386A791DBF2570005E74FC /* Build configuration list for PBXProject "shrwApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64386A751DBF2570005E74FC;
+			productRefGroup = 64386A7F1DBF2570005E74FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64386A7D1DBF2570005E74FC /* shrwApp */,
+				64386A951DBF2570005E74FC /* shrwAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64386A7C1DBF2570005E74FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64386AB51DBF2654005E74FC /* Info.plist in Resources */,
+				64386AB41DBF2654005E74FC /* Images.xcassets in Resources */,
+				64386AB21DBF2654005E74FC /* LaunchScreen.xib in Resources */,
+				64386AB31DBF2654005E74FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64386A941DBF2570005E74FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64386A7A1DBF2570005E74FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64386AB11DBF2654005E74FC /* AppDelegate.swift in Sources */,
+				64386AB61DBF2654005E74FC /* shrwApp.xcdatamodeld in Sources */,
+				64386AC61DBF29EA005E74FC /* shanghaiMapViewController.swift in Sources */,
+				64386ACA1DBF2D34005E74FC /* thematicMapViewController.swift in Sources */,
+				64386ACE1DBF2D8F005E74FC /* fourViewController.swift in Sources */,
+				64386AC81DBF2CDF005E74FC /* secondViewConroller.swift in Sources */,
+				64386ACC1DBF2D68005E74FC /* poiPushViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64386A921DBF2570005E74FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64386A9D1DBF2570005E74FC /* shrwAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64386A981DBF2570005E74FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64386A7D1DBF2570005E74FC /* shrwApp */;
+			targetProxy = 64386A971DBF2570005E74FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64386AA91DBF2654005E74FC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64386AAA1DBF2654005E74FC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		64386AAB1DBF2654005E74FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64386AAC1DBF2654005E74FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64386A9E1DBF2570005E74FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64386A9F1DBF2570005E74FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64386AA11DBF2570005E74FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = shrwApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64386AA21DBF2570005E74FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = shrwApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		64386AA41DBF2570005E74FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = shrwAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shrwApp.app/shrwApp";
+			};
+			name = Debug;
+		};
+		64386AA51DBF2570005E74FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = shrwAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shrwApp.app/shrwApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64386A791DBF2570005E74FC /* Build configuration list for PBXProject "shrwApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64386A9E1DBF2570005E74FC /* Debug */,
+				64386A9F1DBF2570005E74FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64386AA01DBF2570005E74FC /* Build configuration list for PBXNativeTarget "shrwApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64386AA11DBF2570005E74FC /* Debug */,
+				64386AA21DBF2570005E74FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64386AA31DBF2570005E74FC /* Build configuration list for PBXNativeTarget "shrwAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64386AA41DBF2570005E74FC /* Debug */,
+				64386AA51DBF2570005E74FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		64386AAF1DBF2654005E74FC /* shrwApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				64386AB01DBF2654005E74FC /* shrwApp.xcdatamodel */,
+			);
+			currentVersion = 64386AB01DBF2654005E74FC /* shrwApp.xcdatamodel */;
+			path = shrwApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 64386A761DBF2570005E74FC /* Project object */;
+}
